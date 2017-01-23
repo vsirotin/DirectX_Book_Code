@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: d3dMaterial - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/d3dMaterial.res" /d "_DEBUG" /d "_AFXDLL" "C:\VCPP\DirectX\Beispiele\Direct3D\SpecularMaterial\d3dMaterial.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP2054.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\dxCommon" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/d3dMaterial.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dAnimation.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCameraFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dConeFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCubeFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCylinderFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dDecalFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dDirectionalLight.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dDiskFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\D3DFrameExplorer.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dGeomArsenal.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dHalfsphereFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dLightFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dMaterial.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\SpecularMaterial\d3dMaterialApp.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\SpecularMaterial\d3dMaterialDoc.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\SpecularMaterial\d3dMaterialObj.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\SpecularMaterial\d3dMaterialView.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dParallelPointLight.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPointLight.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPolygonFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPyramidFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dSpotLight.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dTexture.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\SpecularMaterial\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2054.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP2055.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\dxCommon" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/d3dMaterial.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\Direct3D\SpecularMaterial\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2055.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP2056.TMP" mit Inhalten
+[
+d3drm.lib ddraw.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/d3dMaterial.pdb" /debug /machine:I386 /out:"Debug/d3dMaterial.exe" /pdbtype:sept 
+.\Debug\d3dAnimation.obj
+.\Debug\d3dCameraFrame.obj
+.\Debug\d3dConeFrame.obj
+.\Debug\d3dCubeFrame.obj
+.\Debug\d3dCylinderFrame.obj
+.\Debug\d3dDecalFrame.obj
+.\Debug\d3dDirectionalLight.obj
+.\Debug\d3dDiskFrame.obj
+.\Debug\d3dFrame.obj
+.\Debug\D3DFrameExplorer.obj
+.\Debug\d3dGeomArsenal.obj
+.\Debug\d3dHalfsphereFrame.obj
+.\Debug\d3dLightFrame.obj
+.\Debug\d3dMainObj.obj
+.\Debug\d3dMaterial.obj
+.\Debug\d3dMaterialApp.obj
+.\Debug\d3dMaterialDoc.obj
+.\Debug\d3dMaterialObj.obj
+.\Debug\d3dMaterialView.obj
+.\Debug\d3dParallelPointLight.obj
+.\Debug\d3dPointLight.obj
+.\Debug\d3dPolygonFrame.obj
+.\Debug\d3dPyramidFrame.obj
+.\Debug\d3dSpotLight.obj
+.\Debug\d3dTexture.obj
+.\Debug\ddMainObj.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\d3dMaterial.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP2056.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+d3dAnimation.cpp
+d3dCameraFrame.cpp
+d3dConeFrame.cpp
+d3dCubeFrame.cpp
+d3dCylinderFrame.cpp
+d3dDecalFrame.cpp
+d3dDirectionalLight.cpp
+d3dDiskFrame.cpp
+d3dFrame.cpp
+D3DFrameExplorer.cpp
+d3dGeomArsenal.cpp
+d3dHalfsphereFrame.cpp
+d3dLightFrame.cpp
+d3dMainObj.cpp
+d3dMaterial.cpp
+d3dMaterialApp.cpp
+d3dMaterialDoc.cpp
+d3dMaterialObj.cpp
+d3dMaterialView.cpp
+d3dParallelPointLight.cpp
+Generieren von Code...
+Kompilieren...
+d3dPointLight.cpp
+d3dPolygonFrame.cpp
+d3dPyramidFrame.cpp
+d3dSpotLight.cpp
+d3dTexture.cpp
+ddMainObj.cpp
+MainFrm.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+d3dMaterial.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

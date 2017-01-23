@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: d3dVillage - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/d3dVillage.res" /d "_DEBUG" /d "_AFXDLL" "C:\VCPP\DirectX\Beispiele\Direct3D\OrthoView\d3dVillage.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP42F5.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\dxCommon" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/d3dVillage.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCameraFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCubeFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dMaterial.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPolygonFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPyramidFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dTexture.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\OrthoView\d3dVillage.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\OrthoView\d3dVillageDoc.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\OrthoView\d3dVillageObj.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\OrthoView\d3dVillageView.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\OrthoView\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP42F5.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP42F6.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\dxCommon" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/d3dVillage.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\Direct3D\OrthoView\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP42F6.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP42F7.TMP" mit Inhalten
+[
+d3drm.lib ddraw.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/d3dVillage.pdb" /debug /machine:I386 /out:"Debug/d3dVillage.exe" /pdbtype:sept 
+.\Debug\d3dCameraFrame.obj
+.\Debug\d3dCubeFrame.obj
+.\Debug\d3dFrame.obj
+.\Debug\d3dMainObj.obj
+.\Debug\d3dMaterial.obj
+.\Debug\d3dPolygonFrame.obj
+.\Debug\d3dPyramidFrame.obj
+.\Debug\d3dTexture.obj
+.\Debug\d3dVillage.obj
+.\Debug\d3dVillageDoc.obj
+.\Debug\d3dVillageObj.obj
+.\Debug\d3dVillageView.obj
+.\Debug\ddMainObj.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\d3dVillage.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP42F7.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+d3dCameraFrame.cpp
+d3dCubeFrame.cpp
+d3dFrame.cpp
+d3dMainObj.cpp
+d3dMaterial.cpp
+d3dPolygonFrame.cpp
+d3dPyramidFrame.cpp
+d3dTexture.cpp
+d3dVillage.cpp
+d3dVillageDoc.cpp
+d3dVillageObj.cpp
+d3dVillageView.cpp
+ddMainObj.cpp
+MainFrm.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+d3dVillage.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

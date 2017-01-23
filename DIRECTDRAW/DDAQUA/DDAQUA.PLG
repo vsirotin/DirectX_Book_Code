@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: ddAqua - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/ddAqua.res" /d "NDEBUG" "C:\VCPP\DirectX\Beispiele\DirectDraw\ddAqua\ddAqua.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP316.TMP" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\dxCommon" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ddAqua.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddAqua\ddAqua.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddAqua\ddAquaBackground.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddAqua\ddAquaObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddAqua\ddAquaSprite.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddAqua\ddAquaWnd.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddImageFiller.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddMainWnd.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddSprite.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddSurfaceFiller.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\pcx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP316.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP0317.TMP" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\dxCommon" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ddAqua.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddAqua\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0317.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP0318.TMP" mit Inhalten
+[
+ddraw.lib dxguid.lib winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ddAqua.pdb" /machine:I386 /out:"Release/ddAqua.exe" 
+.\Release\ddAqua.obj
+.\Release\ddAquaBackground.obj
+.\Release\ddAquaObj.obj
+.\Release\ddAquaSprite.obj
+.\Release\ddAquaWnd.obj
+.\Release\ddImageFiller.obj
+.\Release\ddMainObj.obj
+.\Release\ddMainWnd.obj
+.\Release\ddSprite.obj
+.\Release\ddSurfaceFiller.obj
+.\Release\pcx.obj
+.\Release\StdAfx.obj
+.\Release\ddAqua.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP0318.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ddAqua.cpp
+ddAquaBackground.cpp
+ddAquaObj.cpp
+ddAquaSprite.cpp
+ddAquaWnd.cpp
+ddImageFiller.cpp
+ddMainObj.cpp
+ddMainWnd.cpp
+ddSprite.cpp
+ddSurfaceFiller.cpp
+pcx.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+LINK : warning LNK4089: Alle Verweise auf "SHELL32.dll" wurden durch /OPT:REF verworfen
+
+
+
+<h3>Ergebnisse</h3>
+ddAqua.exe - 0 Fehler, 1 Warnung(en)
+</pre>
+</body>
+</html>

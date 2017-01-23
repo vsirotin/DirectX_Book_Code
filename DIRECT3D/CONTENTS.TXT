@@ -1,0 +1,96 @@
+InitialProject :
+    completed initial project d3dBasic. Class CD3DPolygonFrame
+    is introduced.
+
+Polyhedral3DObjects :
+   project d3dVillage - village is shown in perspective projection.
+
+OrthoView :
+   project d3dVillage - village is shown in ortho projection.
+
+IntroOfGeomArsenal :
+   project d3dVillage - village is shown in perspective projection.
+   Class d3dGeomArsenal is used.
+
+Smooth3DObjects :
+   project d3dMushroom - 3 Mushrooms in air.
+
+RadarAndArrows : 
+   project d3dMushroom - a scene, consisting of a radar and 
+   3 different arrows in air.
+
+AmbientLight :
+   project d3dLights - only ambient light. ToolBar of the application 
+   includes new button (4-th from the left). Please try it.
+
+DirectionalLight :
+   project d3dLights - ambient light + directional light.
+
+PointLight :
+   project d3dLights - ambient light + point light.
+
+PointLightAndChessboard :
+   project d3dLights - ambient light + point light.
+   Landscape plane consists of many small facets.
+   Experiments with attenuation are commented 
+   in lines of file d3dLightsObj.cpp
+
+ParallelPointLight :
+   project d3dLights - ambient light + parallel point light.
+
+Fog :
+   project d3dLights = Fog + PointLight + ChessBoard as landscape
+                       + farther decoration + BKG viewport image
+
+ShadowSceneWithoutShadows :
+   project d3dShadow - a scene before applications of shadows.
+
+Shadow :
+   project d3dShadow - the same scene with shadows.
+
+Shadow2 :
+   project d3dShadow - a scene with a complex structure of frames.
+
+Decal :
+   project d3dDecal - usage of decals inside 3D scenes. Image file
+   "Decal.bmp" must be present in directory "data".
+
+StaticWrapsAndTextures :
+   project d3dWrap - usage of flat and cylindrical wraps. Necessary
+   textures image files are present in directory "data". Chrome wrap 
+   is not used here.
+
+StaticChromeWrap :
+   project d3dWrap - one time application of chrome wrap to a Mushroom.
+   Additional experiment is commented in file "d3dWrapObj.cpp". 
+   Experiments show dependencies of picture on "reference frame" parameter.
+
+SimpleDynamics :
+   project d3dDyna - usage of frame's intrinsic rotation and motion
+   velocities. Callback function is used also.
+
+MoonLightShadowsAndMovingSearchLight :
+   project d3dLights = landscape is textured with grass +
+                       rotating radar +
+                       rotating searchlight.
+
+ChromeWrapAndDynamics :
+   project d3dChromeWrap - an example of right usage of chrome wrap
+   if the scene has dynamic changes.
+
+Animation :
+   project d3dAnim - application of the given animation sequence of events.
+
+ControlViaMousePick :
+   project d3dPick - usage of a mouse in order to control the appearance
+   of 3D scene.
+
+PickAndDynamics :
+   project d3dPick - usage of 3D pick in dynamic 3D scene.
+
+Sweeping :
+   d3dVillage - construction of complex 3D object via sweeping operation.
+   
+Revolution :
+   d3dVillage - construction of complex 3D objects as a body of revolution.
+   Several objects penerate each other while moving.

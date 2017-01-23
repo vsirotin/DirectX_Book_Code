@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: DSSimplyPlay - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/DSSimplyPlay.res" /d "_DEBUG" /d "_AFXDLL" "C:\VCPP\DirectX\Beispiele\DirectSound\DSDuplicate\DSSimplyPlay.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPE262.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DSSimplyPlay.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDuplicate\DSSimplyPlay.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDuplicate\DSSimplyPlayDlg.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSource.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSWave.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE262.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPE263.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DSSimplyPlay.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDuplicate\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE263.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPE264.TMP" mit Inhalten
+[
+winmm.lib dsound.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DSSimplyPlay.pdb" /debug /machine:I386 /out:"Debug/DSSimplyPlay.exe" /pdbtype:sept 
+.\Debug\DSMainObj.obj
+.\Debug\DSSimplyPlay.obj
+.\Debug\DSSimplyPlayDlg.obj
+.\Debug\DSSource.obj
+.\Debug\DSWave.obj
+.\Debug\StdAfx.obj
+.\Debug\DSSimplyPlay.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSPE264.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+DSMainObj.cpp
+DSSimplyPlay.cpp
+DSSimplyPlayDlg.cpp
+DSSource.cpp
+DSWave.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+DSSimplyPlay.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

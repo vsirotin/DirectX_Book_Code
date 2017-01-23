@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: DSDoppler - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/DSDoppler.res" /d "_DEBUG" /d "_AFXDLL" "C:\VCPP\DirectX\Beispiele\DirectSound\DSDoppler\DSDoppler.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPC141.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DSDoppler.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDoppler\DSDoppler.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDoppler\DSDopplerDoc.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDoppler\DSDopplerView.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSListener.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSource.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSource3D.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSourceStream.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSWave.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDoppler\MainFrm.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDoppler\Set3DSourceDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC141.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPC142.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DSDoppler.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSDoppler\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC142.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPC143.TMP" mit Inhalten
+[
+winmm.lib dsound.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DSDoppler.pdb" /debug /machine:I386 /out:"Debug/DSDoppler.exe" /pdbtype:sept 
+.\Debug\DSDoppler.obj
+.\Debug\DSDopplerDoc.obj
+.\Debug\DSDopplerView.obj
+.\Debug\DSListener.obj
+.\Debug\DSMainObj.obj
+.\Debug\DSSource.obj
+.\Debug\DSSource3D.obj
+.\Debug\DSSourceStream.obj
+.\Debug\DSWave.obj
+.\Debug\MainFrm.obj
+.\Debug\Set3DSourceDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\DSDoppler.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSPC143.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+DSDoppler.cpp
+DSDopplerDoc.cpp
+DSDopplerView.cpp
+DSListener.cpp
+DSMainObj.cpp
+DSSource.cpp
+DSSource3D.cpp
+DSSourceStream.cpp
+DSWave.cpp
+MainFrm.cpp
+Set3DSourceDlg.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+DSDoppler.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

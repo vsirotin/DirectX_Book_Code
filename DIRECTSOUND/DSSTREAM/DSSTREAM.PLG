@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: DSStream - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/DSStream.res" /d "_DEBUG" "C:\VCPP\DirectX\Beispiele\DirectSound\DSStream\DSStream.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP8340.TMP" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DSStream.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSource.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSourceStream.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSStream\DSStream.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSStream\DSStreamDoc.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSStream\DSStreamView.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSWave.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSStream\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8340.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP8341.TMP" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DSStream.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSStream\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8341.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP8342.TMP" mit Inhalten
+[
+winmm.lib dsound.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DSStream.pdb" /debug /machine:I386 /out:"Debug/DSStream.exe" /pdbtype:sept 
+.\Debug\DSMainObj.obj
+.\Debug\DSSource.obj
+.\Debug\DSSourceStream.obj
+.\Debug\DSStream.obj
+.\Debug\DSStreamDoc.obj
+.\Debug\DSStreamView.obj
+.\Debug\DSWave.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\DSStream.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP8342.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+DSMainObj.cpp
+DSSource.cpp
+DSSourceStream.cpp
+DSStream.cpp
+DSStreamDoc.cpp
+DSStreamView.cpp
+DSWave.cpp
+MainFrm.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+DSStream.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

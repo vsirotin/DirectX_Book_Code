@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: DSCapture - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/DSCapture.res" /d "_DEBUG" "C:\VCPP\DirectX\Beispiele\DirectSound\DSCapture\DSCapture.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPF252.TMP" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DSCapture.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSCapture\DSCapture.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSCapture\DSCaptureDlg.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSCaptureDuett.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSource.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSWave.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF252.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPF253.TMP" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DSCapture.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSCapture\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF253.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSPF254.TMP" mit Inhalten
+[
+winmm.lib dsound.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DSCapture.pdb" /debug /machine:I386 /out:"Debug/DSCapture.exe" /pdbtype:sept 
+.\Debug\DSCapture.obj
+.\Debug\DSCaptureDlg.obj
+.\Debug\DSCaptureDuett.obj
+.\Debug\DSMainObj.obj
+.\Debug\DSSource.obj
+.\Debug\DSWave.obj
+.\Debug\StdAfx.obj
+.\Debug\DSCapture.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSPF254.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+DSCapture.cpp
+DSCaptureDlg.cpp
+DSCaptureDuett.cpp
+DSMainObj.cpp
+DSSource.cpp
+DSWave.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+DSCapture.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

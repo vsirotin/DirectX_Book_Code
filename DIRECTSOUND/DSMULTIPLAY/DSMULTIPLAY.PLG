@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: DSMultiPlay - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/DSMultiPlay.res" /d "_DEBUG" "C:\VCPP\DirectX\Beispiele\DirectSound\DSMultiPlay\DSMultiPlay.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP5021.TMP" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DSMultiPlay.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSMultiPlay\ChildFrm.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSMultiPlay\DSMultiPlay.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSMultiPlay\DSMultiPlayDoc.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSMultiPlay\DSMultiPlayView.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSSource.cpp"
+"C:\VCPP\DirectX\Beispiele\DXCommon\DSWave.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSMultiPlay\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5021.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP5022.TMP" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DSMultiPlay.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VCPP\DirectX\Beispiele\DirectSound\DSMultiPlay\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5022.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP5023.TMP" mit Inhalten
+[
+winmm.lib dsound.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DSMultiPlay.pdb" /debug /machine:I386 /out:"Debug/DSMultiPlay.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\DSMainObj.obj
+.\Debug\DSMultiPlay.obj
+.\Debug\DSMultiPlayDoc.obj
+.\Debug\DSMultiPlayView.obj
+.\Debug\DSSource.obj
+.\Debug\DSWave.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\DSMultiPlay.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP5023.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChildFrm.cpp
+DSMainObj.cpp
+DSMultiPlay.cpp
+DSMultiPlayDoc.cpp
+DSMultiPlayView.cpp
+DSSource.cpp
+DSWave.cpp
+MainFrm.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+DSMultiPlay.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

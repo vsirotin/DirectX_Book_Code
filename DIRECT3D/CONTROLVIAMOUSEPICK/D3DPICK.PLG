@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: d3dPick - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP8340.TMP" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\dxCommon" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/d3dPick.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dAnimation.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCameraFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dConeFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCubeFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dCylinderFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dDecalFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dDirectionalLight.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dDiskFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dGeomArsenal.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dHalfsphereFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dLightFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dMaterial.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dParallelPointLight.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\ControlViaMousePick\d3dPick.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\ControlViaMousePick\d3dPickObj.cpp"
+"C:\VCPP\DirectX\Beispiele\Direct3D\ControlViaMousePick\d3dPickView.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPointLight.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPolygonFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dPyramidFrame.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dSpotLight.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\d3dTexture.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8340.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP8341.TMP" mit Inhalten
+[
+d3drm.lib ddraw.lib dxguid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/d3dPick.pdb" /debug /machine:I386 /out:"Debug/d3dPick.exe" /pdbtype:sept 
+.\Debug\d3dAnimation.obj
+.\Debug\d3dCameraFrame.obj
+.\Debug\d3dConeFrame.obj
+.\Debug\d3dCubeFrame.obj
+.\Debug\d3dCylinderFrame.obj
+.\Debug\d3dDecalFrame.obj
+.\Debug\d3dDirectionalLight.obj
+.\Debug\d3dDiskFrame.obj
+.\Debug\d3dFrame.obj
+.\Debug\d3dGeomArsenal.obj
+.\Debug\d3dHalfsphereFrame.obj
+.\Debug\d3dLightFrame.obj
+.\Debug\d3dMainObj.obj
+.\Debug\d3dMaterial.obj
+.\Debug\d3dParallelPointLight.obj
+.\Debug\d3dPick.obj
+.\Debug\d3dPickDoc.obj
+.\Debug\d3dPickObj.obj
+.\Debug\d3dPickView.obj
+.\Debug\d3dPointLight.obj
+.\Debug\d3dPolygonFrame.obj
+.\Debug\d3dPyramidFrame.obj
+.\Debug\d3dSpotLight.obj
+.\Debug\d3dTexture.obj
+.\Debug\ddMainObj.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\d3dPick.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP8341.TMP"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+d3dFrame.cpp
+d3dLightFrame.cpp
+d3dMainObj.cpp
+d3dMaterial.cpp
+Generieren von Code...
+Kompilieren...
+d3dAnimation.cpp
+d3dCameraFrame.cpp
+d3dConeFrame.cpp
+d3dCubeFrame.cpp
+d3dCylinderFrame.cpp
+d3dDecalFrame.cpp
+d3dDirectionalLight.cpp
+d3dDiskFrame.cpp
+d3dGeomArsenal.cpp
+d3dHalfsphereFrame.cpp
+d3dParallelPointLight.cpp
+d3dPick.cpp
+d3dPickObj.cpp
+d3dPickView.cpp
+d3dPointLight.cpp
+d3dPolygonFrame.cpp
+d3dPyramidFrame.cpp
+d3dSpotLight.cpp
+d3dTexture.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+d3dPick.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

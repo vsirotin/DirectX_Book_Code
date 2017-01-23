@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: ddPuzzles2 - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/ddPuzzles2.res" /d "NDEBUG" /d "_AFXDLL" "C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles2\ddPuzzles2.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP6065.TMP" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "..\ddPuzzles" /I "..\..\dxCommon" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ddPuzzles2.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddBackFiller.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddImageFiller.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddNullFiller.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles2\ddPuzzles2.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles2\ddPuzzles2Doc.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles2\ddPuzzles2Obj.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles2\ddPuzzles2View.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles\ddPuzzlesBackground.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles\ddPuzzlesObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles\ddPuzzlesSprite.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddSprite.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddSurfaceFiller.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles2\MainFrm.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\pcx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6065.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP6066.TMP" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /I "..\ddPuzzles" /I "..\..\dxCommon" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ddPuzzles2.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6066.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP6067.TMP" mit Inhalten
+[
+dxguid.lib ddraw.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ddPuzzles2.pdb" /machine:I386 /out:"Release/ddPuzzles2.exe" 
+.\Release\ddBackFiller.obj
+.\Release\ddImageFiller.obj
+.\Release\ddMainObj.obj
+.\Release\ddNullFiller.obj
+.\Release\ddPuzzles2.obj
+.\Release\ddPuzzles2Doc.obj
+.\Release\ddPuzzles2Obj.obj
+.\Release\ddPuzzles2View.obj
+.\Release\ddPuzzlesBackground.obj
+.\Release\ddPuzzlesObj.obj
+.\Release\ddPuzzlesSprite.obj
+.\Release\ddSprite.obj
+.\Release\ddSurfaceFiller.obj
+.\Release\MainFrm.obj
+.\Release\pcx.obj
+.\Release\StdAfx.obj
+.\Release\ddPuzzles2.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP6067.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ddBackFiller.cpp
+ddImageFiller.cpp
+ddMainObj.cpp
+ddNullFiller.cpp
+ddPuzzles2.cpp
+ddPuzzles2Doc.cpp
+ddPuzzles2Obj.cpp
+ddPuzzles2View.cpp
+ddPuzzlesBackground.cpp
+ddPuzzlesObj.cpp
+C:\VCPP\DirectX\Beispiele\DirectDraw\ddPuzzles\ddPuzzlesObj.cpp(312) : warning C4018: '<' : Konflikt zwischen signed und unsigned
+ddPuzzlesSprite.cpp
+ddSprite.cpp
+ddSurfaceFiller.cpp
+MainFrm.cpp
+pcx.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+ddPuzzles2.exe - 0 Fehler, 1 Warnung(en)
+</pre>
+</body>
+</html>

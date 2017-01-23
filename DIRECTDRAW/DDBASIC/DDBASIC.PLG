@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: ddBasic - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/ddBasic.res" /d "NDEBUG" "C:\VCPP\DirectX\Beispiele\DirectDraw\ddBasic\ddBasic.rc"" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP2354.TMP" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\dxCommon" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ddBasic.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddBasic\ddBasic.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddBasic\DDBasicObj.cpp"
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddBasic\ddBasicWnd.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddMainObj.cpp"
+"C:\VCPP\DirectX\Beispiele\dxCommon\ddMainWnd.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2354.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP2355.TMP" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\dxCommon" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ddBasic.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\VCPP\DirectX\Beispiele\DirectDraw\ddBasic\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2355.TMP" 
+Erstellen der temporären Datei  "C:\WINDOWS\TEMP\RSP2356.TMP" mit Inhalten
+[
+dxguid.lib ddraw.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ddBasic.pdb" /machine:I386 /out:"Release/ddBasic.exe" 
+.\Release\ddBasic.obj
+.\Release\DDBasicObj.obj
+.\Release\ddBasicWnd.obj
+.\Release\ddMainObj.obj
+.\Release\ddMainWnd.obj
+.\Release\StdAfx.obj
+.\Release\ddBasic.res
+]
+Erstellen der Befehlzeile "link.exe @C:\WINDOWS\TEMP\RSP2356.TMP"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ddBasic.cpp
+DDBasicObj.cpp
+ddBasicWnd.cpp
+ddMainObj.cpp
+ddMainWnd.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+LINK : warning LNK4089: Alle Verweise auf "SHELL32.dll" wurden durch /OPT:REF verworfen
+LINK : warning LNK4089: Alle Verweise auf "comdlg32.dll" wurden durch /OPT:REF verworfen
+
+
+
+<h3>Ergebnisse</h3>
+ddBasic.exe - 0 Fehler, 2 Warnung(en)
+</pre>
+</body>
+</html>
